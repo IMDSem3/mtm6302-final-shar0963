@@ -1,8 +1,21 @@
-| Nov 24, [time] | Email / In person | End time field for overlap checking | [Pending / his answer] | Add required end time | Needed to prevent overlapping classes |
-| Nov 24, [time] | Email / In person | Notifications only while the app is open | [Pending / his answer] | In-app and browser notifications while open | No background push without a service worker |
-| Nov 24, [time] | Email / In person | Is Edit required? | [Pending / his answer] | No Edit in required scope; remove and re-add | Brief lists only add and remove |
-| Nov 24, [time] | Email / In person | One theme or per-class colour | [Pending / his answer] | One theme for the whole app | Matches brief Section 3 |
-| Nov 24, [time] | Email / In person | Remove button style and Clear all | [Pending / his answer] | Remove on each block plus Clear all | Matches brief Sections 4 and 5 |
-| Nov 24, [time] | Email / In person | Meaning of the 10-class limit | [Pending / his answer] | 10 saved entries maximum | Simplest reading of the brief |
-| Nov 24, [time] | Email / In person | Reminder times and default | [Pending / his answer] | One time at a time, default 15 min, off by default | Matches the brief's single control |
-| Nov 24, [time] | Email / In person | Required fields and "class number" | [Pending / his answer] | Name, room, start, end, and day(s) required | Needed to place and validate classes |
+# Communication Log - Classcompass (client: George Dowd)
+
+Developer: Meet Sharma
+Project: Classcompass (MTM6302 Final Project, Milestone 2)
+
+| Date / Time | Method | Question or message | Response | Decision | Reason |
+|---|---|---|---|---|---|
+| Nov 24, 2026, [ 10:49 ] | Email | Introduction and 8 clarification questions (end time, notifications, editing, customization, Remove/Clear all, class limit, reminders, required fields) | Client replied Nov 24, 2026 at 11:49 AM and answered all 8 | See rows below | Milestone 2 plan due Nov 24, 8:00 PM |
+| Nov 24, 2026, 11:49 AM | Email | 1. End time field for overlap checking | Yes | End time is a required field | Client confirmed; needed to prevent overlapping classes |
+| Nov 24, 2026, 11:49 AM | Email | 2. Notifications only while the app is open | Yes | In-app and browser notifications while the app is open; no background push | Client confirmed |
+| Nov 24, 2026, 11:49 AM | Email | 3. Is Edit required? | Editing is optional; existing classes can be edited | Edit is planned as an optional enhancement | Client confirmed it is optional |
+| Nov 24, 2026, 11:49 AM | Email | 4. One theme or per-class colour? | One theme choice is correct | One theme sets the background and class colours | Client confirmed |
+| Nov 24, 2026, 11:49 AM | Email | 5. Remove button style and Clear all | Remove and Clear all are fine | Remove on each class plus a Clear all classes button | Client confirmed |
+| Nov 24, 2026, 11:49 AM | Email | 6. Meaning of the 10-class limit | Limit is 10 classes on a schedule; occurrences unlimited | Limit counts class entries, not repeats | Client clarified |
+| Nov 24, 2026, 11:49 AM | Email | 7. Reminder options and default | Default is 30 minutes; users can pick any reminder time | Default 30 minutes; accept a whole number from 1 to 1440 | Client gave no upper limit, so I set a range to validate against (my decision) |
+| Nov 24, 2026, 11:49 AM | Email | 8. Required fields and "class number" | My assumption is correct | Required: name, room, start time, end time, at least one day. Optional: subject, teacher | Client confirmed |
+
+## Notes
+- The client answered the same day, so no decisions were made after a 24-hour wait, and no instructor escalation was needed.
+- The only decision made without the client was the 1 to 1440 minute reminder range.
+- No scope change needed instructor approval, and no required feature was removed.

@@ -10,3 +10,6 @@ Client: George Dowd
 
 ## Project documents
 - [Client brief](docs/01-client-brief-classcompass.pdf.pdf)
+- [Wireframes narrow](docs/wireframe-narrow-screen.png)
+- [Wireframes wide](docs/wireframe-wide-screen.png)
+- [Plan-Architecture] (docs/02-Application-Plan-and-Architecture-Classcompass.pdf.pdf)
